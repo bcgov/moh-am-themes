@@ -30,7 +30,7 @@ jobs:
       - name: Copy JAR and theme to artifacts folder
         run: |
           mkdir -p artifacts
-          cp target/*.jar artifacts/   
+          cp account-theme/extension/moh-keycloak-theme/target/*.jar artifacts/   
           cp -r login-themes artifacts/
 
       - name: Upload artifacts
