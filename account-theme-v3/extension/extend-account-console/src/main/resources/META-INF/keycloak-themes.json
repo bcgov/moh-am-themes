@@ -1,0 +1,6 @@
+{
+  "themes": [{
+    "name" : "moh-app-realm-account-v3",
+    "types": [ "account" ]
+  }]
+}
