@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "BCSans";
+  src: url("../fonts/BCSans-Regular.woff");
+}
+@font-face {
+  font-family: "BCSans";
+  src: url("../fonts/BCSans-Bold.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "BCSans";
+  src: url("../fonts/BCSans-Italic.woff");
+  font-style: italic;
+}
+@font-face {
+  font-family: "BCSans";
+  src: url("../fonts/BCSans-BoldItalic.woff");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  --pf-v5-global--FontFamily--sans-serif: "BCSans", Helvetica, Arial, sans-serif;
+  --pf-v5-global--FontFamily--heading--sans-serif: "BCSans", Helvetica, Arial, sans-serif;
+
+  --pf-v5-global--BackgroundColor--dark-100: #003366;
+  --pf-v5-global--BackgroundColor--dark-200: #1a5a96;
+  --pf-v5-global--BackgroundColor--dark-400: #38598a;
+
+  --pf-v5-global--Color--100: #000000;
+
+  --pf-v5-c-masthead--c-menu-toggle--before--BorderTopColor: #003366;
+  --pf-v5-c-masthead--c-menu-toggle--before--BorderBottomColor: #003366;
+  --pf-v5-c-masthead--c-menu-toggle--before--BorderLeftColor: #003366;
+  --pf-v5-c-masthead--c-menu-toggle--before--BorderRightColor: #003366;
+
+}
+
+.pf-v5-c-nav {
+  background-color: #003366
+}
+
+.pf-v5-c-page__sidebar-body {
+  background-color: #003366
+}
+
+#firstName, #lastName, #email, #username{
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#save-btn, #cancel-btn{
+  display: none;
+  pointer-events: none;
+}
+
+/*Hide the "Jump to section" menu*/
+.pf-v5-c-page__main-section._sticky_1cdve_5 {
+    display: none
+}
+
+/*Hide avatar*/
+.pf-v5-c-toolbar__item.pf-m-overflow-menu.pf-m-align-right.pf-v5-u-m-0-on-lg {
+  display: none;
+}
+
+

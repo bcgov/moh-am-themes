@@ -87,9 +87,9 @@
                         <#-- by default all identity providers are shown, different message is displayed in case of IDP outage -->
                         <#list social.providers as p>
                             <#if p.displayName?c_lower_case?contains("outage")>
-                                <li class="${properties.kcFormSocialAccountListLinkClass!} idp-outage"><a style="display: block;" href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>Login with ${p.displayName?keep_before_last(" ")} is currently unavailable. Teams supporting this identity provider are working to restore it.</span></a></li>
+                                <li class="${properties.kcFormSocialAccountListLinkClass!} idp-outage"><a style="display: block;" href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>Log in with ${p.displayName?keep_before_last(" ")} is currently unavailable. Teams supporting this identity provider are working to restore it.</span></a></li>
                             <#else>
-                                <li class="${properties.kcFormSocialAccountListLinkClass!}"><a style="display: block" href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>Login with ${p.displayName}</span></a></li>
+                                <li class="${properties.kcFormSocialAccountListLinkClass!}"><a style="display: block" href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>Log in with ${p.displayName}</span></a></li>
                             </#if>
                         </#list>
                     </ul>

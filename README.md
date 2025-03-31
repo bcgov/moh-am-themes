@@ -34,7 +34,7 @@ Other themes are a copy of the moh-app-realm theme, with a fixed list of Identit
 
 ## Account Theme
 
-Please refer to this README for more detailed information on how to build the JAR and edit the themes contained inside.
+Please refer to account-theme-v3 README for more detailed information on how to build the JAR and edit the themes contained inside.
 
 ## Login Theme
 
